@@ -1,4 +1,3 @@
-a
 - Implemented poll initialization instruction.
 - Poll stores:
   - poll_id
@@ -6,3 +5,10 @@ a
   - poll_start
   - poll_end
 - Using PDA derived from poll_id.
+
+
+- Candidate account initialized with:
+  - candidate_name
+  - candidate_votes
+- Candidate votes start at zero.
+- Candidate PDA uses poll_id + candidate_name.
