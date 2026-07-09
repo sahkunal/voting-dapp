@@ -1,1 +1,8 @@
 a
+- Implemented poll initialization instruction.
+- Poll stores:
+  - poll_id
+  - description
+  - poll_start
+  - poll_end
+- Using PDA derived from poll_id.
